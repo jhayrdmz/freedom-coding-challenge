@@ -9,9 +9,9 @@ function getLargestElement($set, $position, $from = 'end') {
 
 $test = [3, 2, 1, 5, 6, 4];
 
-echo(getLargestElement($test, 2));
-echo(getLargestElement($test, 3, 'start'));
-echo(getLargestElement($test, 1));
-echo(getLargestElement($test, 0));
-echo(getLargestElement($test, 9));
-echo(getLargestElement($test, -1));
+echo getLargestElement($test, 2);
+echo getLargestElement($test, 3, 'start');
+echo getLargestElement($test, 1);
+echo getLargestElement($test, 0);
+echo getLargestElement($test, 9);
+echo getLargestElement($test, -1);
